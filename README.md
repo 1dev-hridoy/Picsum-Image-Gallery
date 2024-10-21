@@ -1,20 +1,24 @@
-Picsum Image Gallery
-This project is a simple image gallery that fetches images from the Picsum API and displays them in a responsive grid layout. Users can scroll through the images, view details about each image in a modal, and download images directly. The gallery also supports filtering images by author.
+# Picsum Image Gallery
 
-Features
-Infinite scrolling: New images are fetched and loaded as the user scrolls down.
-Image details modal: Clicking on an image opens a modal displaying details like author, dimensions, and a download button.
-Download functionality: Users can download images directly by clicking the "Download" button.
-Filter by author: Clicking on the author's name filters the gallery to show images only by that author.
-Project Structure
-bash
-Copy code
+This project is a simple image gallery that fetches images from the [Picsum API](https://picsum.photos) and displays them in a responsive grid layout. Users can scroll through the images, view details about each image in a modal, and download images directly. The gallery also supports filtering images by author.
+
+## Features
+- Infinite scrolling: New images are fetched and loaded as the user scrolls down.
+- Image details modal: Clicking on an image opens a modal displaying details like author, dimensions, and a download button.
+- Download functionality: Users can download images directly by clicking the "Download" button.
+- Filter by author: Clicking on the author's name filters the gallery to show images only by that author.
+
+## Project Structure
+
+```bash
 .
 ├── index.html         # Main HTML file
 ├── assets/
 │   ├── style.css      # CSS for animations and styling
 │   └── app.js         # JavaScript for handling image fetching and UI interactions
 └── README.md          # Project documentation
+
+```
 1. index.html
 This is the main file that contains the HTML structure of the image gallery. It includes:
 
@@ -39,8 +43,7 @@ How to Run the Project
 Clone the Repository:
 First, clone the repository to your local machine:
 
-bash
-Copy code
+
 git clone https://github.com/your-username/picsum-gallery.git
 cd picsum-gallery
 Setup the Project:

@@ -44,7 +44,7 @@ Clone the Repository:
 First, clone the repository to your local machine:
 
 
-git clone [https://github.com/your-username/picsum-gallery.git](https://github.com/1dev-hridoy/Picsum-Image-Gallery.git)
+git clone [https://github.com/1dev-hridoy/Picsum-Image-Gallery.git](https://github.com/1dev-hridoy/Picsum-Image-Gallery.git)
 cd picsum-gallery
 Setup the Project:
 Ensure that all project files are in the correct structure:

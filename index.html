@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picsum Image Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-8 text-center">Picsum Image Gallery</h1>
+        <div id="image-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </div>
+
+    <!-- Image Details Modal -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center">
+        <div class="bg-white p-8 rounded-lg max-w-2xl w-full modal-content">
+            <div id="modal-content"></div>
+            <button id="close-modal" class="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors duration-300">Close</button>
+        </div>
+    </div>
+
+    <!-- Loading Modal -->
+    <div id="loading-modal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center">
+        <div class="bg-white p-8 rounded-lg text-center">
+            <svg class="w-20 h-20 mx-auto mb-4 rocket-animation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9v5a5 5 0 0 0 5 5h2a5 5 0 0 0 5-5V9L12 4 6 9z"></path>
+                <path d="M12 4v4"></path>
+                <path d="M6 9h12"></path>
+                <path d="M6 14h12"></path>
+            </svg>
+            <p class="text-xl font-bold">Loading awesome images...</p>
+            <p class="text-gray-600">Prepare for liftoff!</p>
+        </div>
+    </div>
+<script src="./assets/app.js"></script>
+</body>
+</html>
